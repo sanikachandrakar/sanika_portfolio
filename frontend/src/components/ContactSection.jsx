@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import axios from 'axios';
 import { portfolioData } from '../data/mock';
 import { Send, Phone, Mail, Instagram } from 'lucide-react';
 import { useToast } from '../hooks/use-toast';
@@ -26,9 +27,10 @@ const ContactSection = () => {
     e.preventDefault();
     setIsSubmitting(true);
 
-    // TODO: This will be connected to backend API
-    // For now, simulate submission
-    setTimeout(() => {
+    try {
+      const backendUrl = process.env.REACT_APP_BACKEND_URL || '';
+      const response = await axios.post(`${backendUrl}/api/contact`, formData);
+      console.log(response.data)
       toast({
         title: "Message sent!",
         description: "Thanks for reaching out. I'll get back to you within 24 hours.",
@@ -40,8 +42,16 @@ const ContactSection = () => {
         businessType: 'realEstate',
         message: ''
       });
+    } catch (error) {
+      console.error('Contact form error:', error);
+      toast({
+        title: "Something went wrong",
+        description: "Please try again or reach out via WhatsApp.",
+        variant: "destructive",
+      });
+    } finally {
       setIsSubmitting(false);
-    }, 1000);
+    }
   };
 
   return (

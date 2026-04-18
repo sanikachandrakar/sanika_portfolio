@@ -25,7 +25,7 @@ export const portfolioData = {
   realEstateServices: [
     {
       id: 1,
-      title: "Lead Generation",
+      title: "Meta/ Google Add Specialist",
       description: "CTA content strategy, Reel scripting, automated DM sequences, lead qualification systems that attract ready-to-buy prospects.",
       features: [
         "High-converting content hooks",
@@ -56,6 +56,7 @@ export const portfolioData = {
         "Sales team training"
       ]
     }
+
   ],
 
   socialMediaServices: [
