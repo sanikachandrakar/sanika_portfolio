@@ -182,7 +182,7 @@ export const portfolioData = {
         leads: "170+",
         views: "56.7K+",
         conversions: "12",
-        revenue: "₹2.1Cr"
+        revenue: "₹2.1 Lakh"
       },
       duration: "45 days",
       image: "/images/sanika-1.jpeg"
