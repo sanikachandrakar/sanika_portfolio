@@ -67,17 +67,17 @@ export const portfolioData = {
         "Remarketing & Retargeting Funnels"
       ]
     },
-    {
-      id: 5,
-      title: "Web Development",
-      description: "Custom websites and brand portfolios that make you look credible, professional, and worth hiring before you say a word.",
-      features: [
-        "Custom website design",
-        "Portfolio & brand sites",
-        "Real estate agent websites",
-        "Mobile-first responsive design"
-      ]
-    }
+    // {
+    //   id: 5,
+    //   title: "Web Development",
+    //   description: "Custom websites and brand portfolios that make you look credible, professional, and worth hiring before you say a word.",
+    //   features: [
+    //     "Custom website design",
+    //     "Portfolio & brand sites",
+    //     "Real estate agent websites",
+    //     "Mobile-first responsive design"
+    //   ]
+    // }
 
   ],
 

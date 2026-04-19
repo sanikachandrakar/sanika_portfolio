@@ -52,7 +52,7 @@ const StatsSection = () => {
   };
 
   return (
-    <section 
+    <section
       ref={sectionRef}
       className="py-20 bg-primary text-primary-foreground scroll-reveal opacity-0"
     >
@@ -66,21 +66,21 @@ const StatsSection = () => {
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="text-center">
             <div className="font-display text-5xl md:text-6xl font-bold text-accent mb-2">
-              {isVisible ? <Counter end="115" suffix="K+" /> : '0'}
+              {isVisible ? <Counter end="255" suffix="K+" /> : '0'}
             </div>
             <div className="text-sm md:text-base opacity-80">Profile Views</div>
           </div>
 
           <div className="text-center">
             <div className="font-display text-5xl md:text-6xl font-bold text-accent mb-2">
-              {isVisible ? <Counter end="170" suffix="+" /> : '0'}
+              {isVisible ? <Counter end="225" suffix="+" /> : '0'}
             </div>
             <div className="text-sm md:text-base opacity-80">Leads · Single Reel</div>
           </div>
 
           <div className="text-center">
             <div className="font-display text-5xl md:text-6xl font-bold text-accent mb-2">
-              {isVisible ? <Counter end="56" suffix="K+" /> : '0'}
+              {isVisible ? <Counter end="119" suffix="K+" /> : '0'}
             </div>
             <div className="text-sm md:text-base opacity-80">Views in 30 Days</div>
           </div>

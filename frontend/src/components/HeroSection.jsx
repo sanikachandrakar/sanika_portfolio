@@ -9,7 +9,7 @@ const HeroSection = ({ serviceType, setServiceType }) => {
     realEstate: {
       headline: "I Help You Sell More. Faster.",
       subline: "Lead Generation · Personal Branding · Sales Closing for Real Estate",
-      body: "Real estate owners: I generate qualified leads through organic social media, build your personal brand online, and close prospects on calls — so you can focus on properties, not pipelines.",
+      body: "Real estate owners: I generate qualified leads through organic social media, build your personal brand online, and close prospects on calls so you can focus on properties, not pipelines.",
       badge: "● Available for Real Estate Projects",
       image: "/images/sanika-1.jpeg"
     },
@@ -32,21 +32,19 @@ const HeroSection = ({ serviceType, setServiceType }) => {
           <div className="inline-flex bg-secondary rounded-full p-1 gap-1">
             <button
               onClick={() => setServiceType('realEstate')}
-              className={`px-6 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
-                serviceType === 'realEstate' 
-                  ? 'bg-accent text-background' 
-                  : 'text-foreground hover:text-accent'
-              }`}
+              className={`px-6 py-2 rounded-full text-sm font-medium transition-all duration-300 ${serviceType === 'realEstate'
+                ? 'bg-accent text-background'
+                : 'text-foreground hover:text-accent'
+                }`}
             >
               Real Estate
             </button>
             <button
               onClick={() => setServiceType('socialMedia')}
-              className={`px-6 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
-                serviceType === 'socialMedia' 
-                  ? 'bg-accent text-background' 
-                  : 'text-foreground hover:text-accent'
-              }`}
+              className={`px-6 py-2 rounded-full text-sm font-medium transition-all duration-300 ${serviceType === 'socialMedia'
+                ? 'bg-accent text-background'
+                : 'text-foreground hover:text-accent'
+                }`}
             >
               Social Media
             </button>
@@ -113,7 +111,7 @@ const HeroSection = ({ serviceType, setServiceType }) => {
                 className="w-full h-full object-cover object-top"
               />
             </div>
-            
+
             {/* Floating stat badge */}
             <div className="absolute top-8 -left-4 bg-background/95 backdrop-blur-md p-4 rounded-lg shadow-xl animate-float">
               <div className="font-display text-2xl font-bold text-accent">{stats.contentChallenge}✓</div>
