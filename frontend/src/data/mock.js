@@ -15,9 +15,9 @@ export const portfolioData = {
 
   stats: {
     experience: "3.5+",
-    profileViews: "115000+",
-    leadsFromReel: "170+",
-    viewsIn30Days: "56700+",
+    profileViews: "255000+",
+    leadsFromReel: "200+",
+    viewsIn30Days: "11800+",
     contentChallenge: "100",
     revenue: "Lakhs"
   },
@@ -25,7 +25,7 @@ export const portfolioData = {
   realEstateServices: [
     {
       id: 1,
-      title: "Meta/ Google Add Specialist",
+      title: "Lead Generation",
       description: "CTA content strategy, Reel scripting, automated DM sequences, lead qualification systems that attract ready-to-buy prospects.",
       features: [
         "High-converting content hooks",
@@ -54,6 +54,28 @@ export const portfolioData = {
         "Objection handling scripts",
         "Follow-up automation",
         "Sales team training"
+      ]
+    },
+    {
+      id: 4,
+      title: "Meta/ Google Add Specialist",
+      description: "Scale your reach with precision targeting. Design, launch, and manage paid campaigns that put your properties in front of high-intent buyers and sellers instantly.",
+      features: [
+        "High-ROI Campaign Strategy",
+        "Advanced Pixel & API Tracking",
+        "A/B Creative Testing",
+        "Remarketing & Retargeting Funnels"
+      ]
+    },
+    {
+      id: 5,
+      title: "Web Development",
+      description: "Custom websites and brand portfolios that make you look credible, professional, and worth hiring before you say a word.",
+      features: [
+        "Custom website design",
+        "Portfolio & brand sites",
+        "Real estate agent websites",
+        "Mobile-first responsive design"
       ]
     }
 
@@ -145,7 +167,7 @@ export const portfolioData = {
   caseStudies: [
     {
       id: 1,
-      title: "Real Estate Developer: 170+ Leads in 30 Days",
+      title: "Real Estate Developer: 200+ Leads in 30 Days",
       client: "Luxury Properties Mumbai",
       industry: "Real Estate",
       challenge: "Client had strong portfolio but zero online presence. No social media strategy, no lead generation system.",
@@ -227,7 +249,7 @@ export const portfolioData = {
   },
 
   about: {
-    story: "I started with zero. No business degree. No connections. No followers. Just real conversations and real results. For 3.5+ years, I've been in the trenches—generating leads, building personal brands, closing sales. I've worked with real estate owners who didn't know where to start online, and social media businesses struggling to convert followers into clients. I don't do theory. I do what works. Proven frameworks. Real systems. Measurable results.",
-    tags: ["Sales Closing", "Lead Generation", "Personal Branding", "Instagram Strategy", "Funnel Building", "Mumbai", "Raipur"]
+    story: "I started with zero. No business degree. No connections. No followers. Just real conversations and real results. For 3.5+ years, I've been in the trenches generating leads, building personal brands, closing sales. I've worked with real estate owners who didn't know where to start online, and social media businesses struggling to convert followers into clients. I don't do theory. I do what works. Proven frameworks. Real systems. Measurable results.",
+    tags: ["Sales Closing", "Lead Generation", "Personal Branding", "Instagram Strategy", "Funnel Building", "Meta-Ads", "Website Development"]
   }
 };
